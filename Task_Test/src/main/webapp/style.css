@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+body {
+	background-color: aliceblue;
+	color: black;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+
+h2{
+	color:#333;
+	text-align: center;
+}
+
+.errorMsg {
+	color: red;
+}
+
+.deleteMsg{
+	color: blue;
+}
+
+.delete{
+	color: red;
+	font-size: 15px;
+}
+
+.task-item{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #f9f9f9;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.task-text {
+	flex-grow: 1;
+}
+
+.buttons form {
+	margin: 0;	
+}
+
+button, input[type="submit"]{
+	padding: 6px 10px;
+	font-size: 14px;
+	width:100%;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.container {
+	width: 400px;
+	margin: 80px auto;
+	background: white;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: left;
+}
+
+input{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button:hover, input[type="submit"]:hover{
+	background-color: #45a049;
+}
+
+
+.button {
+  background: #ff7a18;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+
+.TypeA {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	width:100%;
+	padding:8px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.TypeA a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	transition: opacity 0.3s;
+}
+
+.TypeA a:fover {
+	opacity: 0.7;
+	
+}
