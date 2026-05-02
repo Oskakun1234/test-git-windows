@@ -24,14 +24,14 @@ Java（Servlet / JSP）を用いて、設計から実装まで一貫して個人
 ## システム構成図
 本アプリは、MVCモデルを意識し、フロントエンド・サーバーサイド・データベースを分離した構成としています。
 
-![構成図](./images/architecture.png)
+![構成図](./architecture.png)
 
 ---
 
 ## ER図
 ユーザーとタスクを1対多の関係で管理しています。
 
-![ER図](./images/er-diagram.png)
+![ER図](./er-diagram.png)
 
 ---
 
