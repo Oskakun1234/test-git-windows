@@ -8,7 +8,7 @@ Java（Servlet / JSP）を用いて、設計から実装まで一貫して個人
 ---
 
 ## デモ
-※デプロイURLを記載（例：https://xxx.com）
+./image
 
 ---
 
